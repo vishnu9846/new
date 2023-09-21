@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BossMan</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@200,700,400,600,300,1,500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/3704680c3f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+</head>
+<body class="bg-[#0D0D0d]">
+        <!-- header section -->
+        <header class="mx-auto px-14 sticky top-0 pc:container ipad_min:px-8">
+            <div id="home" class="flex flex-wrap items-center py-8 justify-between border-solid border-white">
+                <div class="flex items-center">
+                    <img src="../Bossman Tatoos/Logo.png" alt="" />
+                </div>
+                <div class="flex items-center">
+                    <div class="flex justify-center ipad:hidden">
+                        <ul class="flex gap-4 [&>li>a]:font-medium text-white [&>li>a]:mx-1 [&>li>a]:px-1">
+                            <li><a href="index.html">Home</a></li>
+                            <li class=""><a href="work.html">Work</a></li>
+                            <li class=""><a href="form.html">Contact</a></li>
+                            <li class=""><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuIcon hidden ipad:block">
+                        <i id="menuicon" class="fa-solid fa-bars text-white px-2"></i>
+                    </div>
+                    <div class="ipad:hidden">
+                        <a href="form.html"
+                            class="ml-4 border border-solid border-white py-2 px-12 text-white hover:bg-slate-50 hover:text-black min-w-fit 2xl:hidden transition-colors duration-200">Make an appointment</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header section ends -->
+    
+        <!-- responsive nav bar section -->
+        <div id="slidemenu"
+            class="slidediv py-8 items-center text-center right-0 top-0 fixed h-full bg-black z-[999999999]">
+            <img class="mx-auto" src="../Bossman Tatoos/Type=Logo.png" alt="" />
+            <ul class="[&>li>a]:text-white [&>li]:my-4 flex flex-col [&>li>a]:p-3 [&>li>a]:mx-2 my-8">
+                <li><a class="" href="index.html">Home</a></li>
+                <li class=""><a href="work.html">Work</a></li>
+                <li class=""><a href="form.html">Contact</a></li>
+                <li class=""><a href="#">Blog</a></li>
+            </ul>
+            <div id="closeicon">
+                <img id="" class="mx-auto" src="../Bossman Tatoos/xmark.png" alt="" />
+            </div>
+        </div>
+        <!-- responsive nav bar section ends -->
+
+        <section>
+            <h1 class="text-white justify-center flex text-[10rem] font-clash ipad_min:text-[5rem]"> coming soon.....</h1>
+            <div class="footerlogo max-[375px]:hidden justify-center flex">
+                <a href="work.html" class="border border-solid border-white py-2 px-12 text-white hover:bg-slate-200 hover:text-black min-w-fit ipad:hidden">Have a Look at Our Tattoos</a>
+            </div>
+        </section>
+
+
+        <footer class=" relative top-24">
+            <div class="flex py-6 my-20 justify-between container mx-auto px-24 flex-row ipad:hidden">
+                <div class="footerlogo max-[375px]:hidden">
+                    <img src="../Bossman Tatoos/Type=Logo.png" alt="">
+                </div>
+                <div class="text-white flex gap-4 max-[375px]:gap-12 max-[375px]:pl-10 ">
+                    <button  class="flex py-1 gap-4 max-[375px]:w-[10rem]">
+                        <a href="https://www.instagram.com/bossman_tattoos/"><img src="../Bossman Tatoos/instagram.png" alt=""></a>
+                        <a href=""><img src="../Bossman Tatoos/facebook.png" alt=""></i></a>
+                        <a href=""><img src="../Bossman Tatoos/youtube.png" alt=""></i></a>
+                    </button>
+                    
+                    <div class="hidden max-[375px]:block">
+                        <h1></h1>
+                        <a class="max-[375px]:text-2xl" href="#home">scriol top</a>
+                    </div>
+                </div>
+            </div>   
+            <div class="text-white flex gap-4 hidden ipad:block pt-10">
+                <button class="flex py-1 gap-4 p-10">
+                    <a href="https://www.instagram.com/bossman_tattoos/"><img src="../Bossman Tatoos/instagram.png"
+                            alt="" /></a>
+                    <a href=""><img src="../Bossman Tatoos/facebook.png" alt="" /></a>
+                    <a href=""><img src="../Bossman Tatoos/youtube.png" alt="" /></a>
+                    <a href="#home"> <h1 class="text-white 2xl:hidden pl-40 ipad_min:pl-3"><i class="fa-solid fa-arrow-left rotate-90  text-white px-3 py-2 phone_max:hidden"></i>Scroll to top</h1></a>
+                </button>
+            </div>
+        </footer>
+        <script src="./scripts.js"></script>
+</body>

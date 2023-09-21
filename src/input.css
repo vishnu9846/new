@@ -93,6 +93,7 @@ input {
 
 .hello:hover {
   filter: grayscale(0);
+  
 }
 
 .man {
