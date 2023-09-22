@@ -724,6 +724,11 @@ video {
   width: 100%;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .min-w-\[23rem\] {
   min-width: 23rem;
 }
@@ -1599,6 +1604,11 @@ input {
     padding-bottom: 2.5rem;
   }
 
+  .ipad\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .ipad\:font-normal {
     font-weight: 400;
   }
@@ -1644,6 +1654,11 @@ input {
   .ipad_min\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .ipad_min\:px-\[rem\] {
+    padding-left: rem;
+    padding-right: rem;
   }
 
   .ipad_min\:pl-3 {
