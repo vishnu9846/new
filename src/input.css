@@ -187,3 +187,20 @@ input {
   width: 75% !important;
   overflow: visible !important;
 }
+.po{
+  background-color: #112a2de6;
+}
+.car{
+  display: flex;
+  justify-content: space-around;
+}
+.mk{
+  margin-top: 11rem;
+}
+.ani1{
+  width: 31.5rem;
+}
+#section2{
+  margin-top: 10rem;
+  padding-top: 2rem;
+}
